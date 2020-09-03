@@ -96,13 +96,13 @@ f_to_c()
 def get_slope(x1, y1, x2, y2):
     # calc slope here
     if((x2-x1)==0):
-        print(float("inf"))
+        slope=float("inf")
     else:
         slope=(y2-y1)/(x2-x1)
-        print(slope)
+    print(slope)
 
 get_slope(0, 0, 1, 1)
-get_slope(3,4,3,1)
+
 
 
 # Challenge/Bonus Question[5 points]
